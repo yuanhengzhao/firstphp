@@ -88,11 +88,11 @@ header("Location: opportunities.php");
       <input type="text" class="form-control" name="Email">
     </div>
  <div class="form-group">
-      <label for="usr">Requested Follow-up?:</label>
+      <label for="usr">Requested Follow-up?</label>
       <input type="text" class="form-control" name="Rfollow">
     </div>
  <div class="form-group">
-      <label for="usr">Requested Meeting?:</label>
+      <label for="usr">Requested Meeting?</label>
       <input type="text" class="form-control" name="Rmeeting">
     </div>
 
@@ -106,7 +106,7 @@ header("Location: opportunities.php");
     </div>
 <div class="form-group">
       <label for="usr">Follow-up Date</label>
-      <input type="text" class="form-control" name="Fdate" value="<?php echo date(" Y-m-d H-i-s "); ?>">
+      <input type="datetime-local" class="form-control" name="Fdate" value="<?php echo date(" Y-m-d H-i-s "); ?>">
     </div>
 <div class="form-group">
       <label for="usr">Follow-up Notes</label>
@@ -114,7 +114,7 @@ header("Location: opportunities.php");
     </div>
 <div class="form-group">
       <label for="usr">Follow-up Meeting Date</label>
-      <input type="text" class="form-control" name="FMdate" value="<?php echo date(" Y-m-d H-i-s "); ?>">
+      <input type="datetime-local" class="form-control" name="FMdate" value="<?php echo date(" Y-m-d H-i-s "); ?>">
     </div>
 <div class="form-group">
       <label for="usr">Follow-up Topic</label>
